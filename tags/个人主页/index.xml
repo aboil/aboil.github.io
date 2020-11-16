@@ -13,7 +13,17 @@
       <pubDate>Mon, 16 Nov 2020 17:09:51 +0800</pubDate>
       
       <guid>https://aboil.github.io/p/%E5%9F%BA%E4%BA%8Ehugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</guid>
-      <description>基于hugo搭建个人主页，并部署在Github上 首先</description>
+      <description>开始前的准备
+   安装hugo	（下面有介绍）
+  安装配置好git
+  准备好github账号
+  Markdown编辑器：如Typora
+   1、安装Hugo hugo算是免安装的，简单来说就行下载安装包，解压后，将其主程序所在的路径加到环境变量中即可。
+ 安装包下载地址： GitHub 仓库 找到相应版本下载即可。我使用的是 hugo_extended_0.78.2_Windows-64bit.zip 这个版本。下载解压后，将其主程序所在的路径添加到 Windows 的系统环境变量的 PATH 中即可，不需安装。 验证：在cmd窗口中输入：hugo version，会出现一行类似：Hugo Static Site Generator v0.78.2/extended windows/amd64 BuildDate: unknown 就表明安装正确。  Hugo官网： https://gohugo.io Hugo中文文档： https://www.gohugo.org/
+2、创建站点 在工作目录下按下右键，选择右键菜单中的 Git Bash Here，创建一个名为 myblogsite 的站点，输入以下指令：
+$ hugo new site myblogsite $ cd myblogsite 3、添加主题Themes hugo有很多主题模板，可以下载一个，地址为：https://themes.gohugo.io/  ，这里我选择的是Stack 主题（地址）。
+用git命令将主题下载到 myblogsite/themes/hugo-theme-stack/目录下：
+$ git clone https://github.</description>
     </item>
     
   </channel>

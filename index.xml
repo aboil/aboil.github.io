@@ -12,8 +12,124 @@
         <pubDate>Mon, 16 Nov 2020 17:09:51 +0800</pubDate>
         
         <guid>https://aboil.github.io/p/%E5%9F%BA%E4%BA%8Ehugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</guid>
-        <description>&lt;img src="https://aboil.github.io/p/%E5%9F%BA%E4%BA%8Ehugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/index.assets/inco_hugo-github-pages.jpg" alt="Featured image of post 基于hugo搭建个人主页" /&gt;&lt;h1 id=&#34;基于hugo搭建个人主页并部署在github上&#34;&gt;基于hugo搭建个人主页，并部署在Github上&lt;/h1&gt;
-&lt;p&gt;首先&lt;/p&gt;
+        <description>&lt;img src="https://aboil.github.io/p/%E5%9F%BA%E4%BA%8Ehugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/index.assets/inco_hugo-github-pages.jpg" alt="Featured image of post 基于hugo搭建个人主页" /&gt;&lt;p&gt;开始前的准备&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;安装hugo	（下面有介绍）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安装配置好git&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;准备好github账号&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Markdown编辑器：如Typora&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;1安装hugo&#34;&gt;1、安装Hugo&lt;/h2&gt;
+&lt;p&gt;hugo算是免安装的，简单来说就行下载安装包，解压后，将其主程序所在的路径加到环境变量中即可。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;安装包下载地址： &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub 仓库&lt;/a&gt; 找到相应版本下载即可。我使用的是 &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.78.2/hugo_extended_0.78.2_Windows-64bit.zip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hugo_extended_0.78.2_Windows-64bit.zip&lt;/a&gt; 这个版本。下载解压后，将其主程序所在的路径添加到 Windows 的系统环境变量的 PATH 中即可，不需安装。&lt;/li&gt;
+&lt;li&gt;验证：在cmd窗口中输入：&lt;code&gt;hugo version&lt;/code&gt;，会出现一行类似：Hugo Static Site Generator v0.78.2/extended windows/amd64 BuildDate: unknown 就表明安装正确。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hugo官网： &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://gohugo.io&lt;/a&gt;
+Hugo中文文档： &lt;a href=&#34;https://www.gohugo.org/&#34;&gt;https://www.gohugo.org/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2创建站点&#34;&gt;2、创建站点&lt;/h2&gt;
+&lt;p&gt;在工作目录下按下右键，选择右键菜单中的 &lt;code&gt;Git Bash Here&lt;/code&gt;，创建一个名为 &lt;code&gt;myblogsite&lt;/code&gt; 的站点，输入以下指令：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ hugo new site myblogsite
+$ cd myblogsite
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;3添加主题themes&#34;&gt;3、添加主题Themes&lt;/h2&gt;
+&lt;p&gt;hugo有很多主题模板，可以下载一个，地址为：&lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://themes.gohugo.io/ &lt;/a&gt; ，这里我选择的是&lt;code&gt;Stack&lt;/code&gt; 主题（&lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/hugo-theme-stack/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;地址&lt;/a&gt;）。&lt;/p&gt;
+&lt;p&gt;用git命令将主题下载到 &lt;code&gt;myblogsite/themes/hugo-theme-stack/&lt;/code&gt;目录下：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/CaiJimmy/hugo-theme-stack.git themes/hugo-theme-stack
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;或者直接下载下来，将其解压到&lt;code&gt;myblogsite/themes/hugo-theme-stack/&lt;/code&gt;目录下也可以。&lt;/p&gt;
+&lt;p&gt;用下载主题里的&lt;code&gt;myblogsite\themes\hugo-theme-stack\exampleSite\config.toml&lt;/code&gt;配置文件替换根目录下&lt;code&gt;myblogsite\config.toml&lt;/code&gt;文件&lt;/p&gt;
+&lt;p&gt;设置config.toml里属性&lt;code&gt;theme: &amp;quot;hugo-theme-stack&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;==tips：==如果用的也是我这个主题，要注意仔细阅读这个主题的&lt;a class=&#34;link&#34; href=&#34;https://www.notion.so/85e09d87a330450796bb4a982ad9ee54&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;说明文档&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;4创建博客&#34;&gt;4、创建博客&lt;/h2&gt;
+&lt;p&gt;在站点的根目录下，这里是&lt;code&gt;myblogsite/&lt;/code&gt;使用以下命令：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ hugo new post/index.md
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;创建的index.md文档路径是&lt;code&gt;myblogsite/content/post/index.md&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;用Typora编辑器打开该&lt;code&gt;index.md&lt;/code&gt;文档，将下面代码重新写在&lt;code&gt;index.md&lt;/code&gt;文档中：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;+++
+author = &amp;#34;aboil&amp;#34;
+title = &amp;#34;我的测试&amp;#34;
+date = 2020-11-16T15:38:53+08:00
+description = &amp;#34;该博客的摘要&amp;#34;
+categories = [
+    &amp;#34;Test&amp;#34;
+]
+tags = [
+    &amp;#34;emoji&amp;#34;,
+]
+image = &amp;#34;test01.jpg&amp;#34;
+math = true
++++
+
+正文部分
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;其中：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;date&lt;/code&gt; 指定的是日期&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;categories&lt;/code&gt; 指定的是该博文的所属分类，多个要用逗号隔开&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;tags&lt;/code&gt; 指定的是该博文的标签，多个要用逗号隔开&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;image&lt;/code&gt; 指定的是该博文的预览图&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;math&lt;/code&gt; 如果本文中插入的有数学公式，可以设置该字段为&lt;code&gt;true&lt;/code&gt;，&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;5本地调试&#34;&gt;5、本地调试&lt;/h2&gt;
+&lt;p&gt;在站点根目录下&lt;code&gt;myblogsite/&lt;/code&gt;执行下面指令&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ hugo server -t hugo-theme-stack --buildDrafts
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;其中&lt;code&gt;hugo-theme-stack&lt;/code&gt;是自己下载的主题的名字&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+		&lt;a href=&#34;https://aboil.github.io/p/%E5%9F%BA%E4%BA%8Ehugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/index.assets/image-20201116195913238.png&#34; data-size=&#34;983x462&#34;&gt;
+			&lt;img srcset=&#34;https://aboil.github.io/p/%E5%9F%BA%E4%BA%8Ehugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/index.assets/image-20201116195913238_hud191d88459077d037d31b0b13a2544e5_44792_480x0_resize_box_2.png 480w, https://aboil.github.io/p/%E5%9F%BA%E4%BA%8Ehugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/index.assets/image-20201116195913238_hud191d88459077d037d31b0b13a2544e5_44792_1024x0_resize_box_2.png 1024w&#34;
+				src=&#34;https://aboil.github.io/p/%E5%9F%BA%E4%BA%8Ehugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/index.assets/image-20201116195913238.png&#34; width=&#34;983&#34; height=&#34;462&#34; loading=&#34;lazy&#34;
+				alt=&#34;&amp;nbsp;&#34;&gt;
+		&lt;/a&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;浏览器中访问：&lt;code&gt;localhost:1313/ &lt;/code&gt;即可&lt;/p&gt;
+&lt;h2 id=&#34;6部署到github上&#34;&gt;6、部署到github上&lt;/h2&gt;
+&lt;h3 id=&#34;创建github仓库&#34;&gt;创建github仓库&lt;/h3&gt;
+&lt;p&gt;新建一个github仓库，设置为&lt;code&gt;public&lt;/code&gt;,仓库名与账号同名。如你的github名为abc，则将该仓库命名为&lt;code&gt;abc.github.io&lt;/code&gt;，&lt;/p&gt;
+&lt;h3 id=&#34;部署&#34;&gt;部署&lt;/h3&gt;
+&lt;p&gt;将站点部署到&lt;code&gt;abc.github.io&lt;/code&gt;仓库中&lt;/p&gt;
+&lt;p&gt;将根目录下config.toml文件中baseURL改为&lt;code&gt;https://abc.github.io/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;在站点根目录执行&lt;code&gt;hugo&lt;/code&gt;命令生成&lt;code&gt;/public&lt;/code&gt;文件夹。public下存放的就是所有静态页面，只需要把public目录里面的文件&lt;code&gt;push&lt;/code&gt;到你的仓库就好&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ hugo --theme=hugo-theme-stack --baseUrl=&amp;quot;https://abc.github.io/&amp;quot; --buildDrafts
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;该命令后，站点目录下会生成一个public文件夹，下面只需要将public文件夹push到abc.github.io仓库中即可&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# 进入public文件夹内
+$ cd public/
+$ git init
+$ git add .
+$ git commit -m &amp;quot;描述信息，如：创建我的个人主页&amp;quot;
+
+# 第一次需要与远程项目建立链接：
+$ git remote add origin https://github.com/aboil/aboil.github.io.git
+
+# 直接 git push 不行的话，就用下面这个
+$ git push -u origin master	
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;之后只需要访问网址&lt;code&gt;https://abc.github.io&lt;/code&gt;即可&lt;/p&gt;
+&lt;p&gt;__&lt;code&gt;tips:&lt;/code&gt;__如果还是没看懂，可以在B站上找个教学视频看看，我当时看了这个：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1q4411i7gL?from=search&amp;amp;seid=1886274117294683067&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;B站-手把手教你从0开始搭建自己的个人博客 |第二种姿势 | hugo&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
