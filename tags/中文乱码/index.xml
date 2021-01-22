@@ -1,31 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>游手好闲 on Jianbiao Li</title>
-    <link>https://aboil.github.io/categories/%E6%B8%B8%E6%89%8B%E5%A5%BD%E9%97%B2/</link>
-    <description>Recent content in 游手好闲 on Jianbiao Li</description>
+    <title>中文乱码 on Jianbiao Li</title>
+    <link>https://aboil.github.io/tags/%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81/</link>
+    <description>Recent content in 中文乱码 on Jianbiao Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Nov 2020 17:09:51 +0800</lastBuildDate><atom:link href="https://aboil.github.io/categories/%E6%B8%B8%E6%89%8B%E5%A5%BD%E9%97%B2/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>基于hugo搭建个人主页</title>
-      <link>https://aboil.github.io/p/%E5%9F%BA%E4%BA%8Ehugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</link>
-      <pubDate>Mon, 16 Nov 2020 17:09:51 +0800</pubDate>
-      
-      <guid>https://aboil.github.io/p/%E5%9F%BA%E4%BA%8Ehugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</guid>
-      <description>开始前的准备
-   安装hugo	（下面有介绍）
-  安装配置好git
-  准备好github账号
-  Markdown编辑器：如Typora
-   1、安装Hugo hugo算是免安装的，简单来说就行下载安装包，解压后，将其主程序所在的路径加到环境变量中即可。
- 安装包下载地址： GitHub 仓库 找到相应版本下载即可。我使用的是 hugo_extended_0.78.2_Windows-64bit.zip 这个版本。下载解压后，将其主程序所在的路径添加到 Windows 的系统环境变量的 PATH 中即可，不需安装。 验证：在cmd窗口中输入：hugo version，会出现一行类似：Hugo Static Site Generator v0.78.2/extended windows/amd64 BuildDate: unknown 就表明安装正确。  Hugo官网： https://gohugo.io Hugo中文文档： https://www.gohugo.org/
-2、创建站点 在工作目录下按下右键，选择右键菜单中的 Git Bash Here，创建一个名为 myblogsite 的站点，输入以下指令：
-$ hugo new site myblogsite $ cd myblogsite 3、添加主题Themes hugo有很多主题模板，可以下载一个，地址为：https://themes.gohugo.io/  ，这里我选择的是Stack 主题（地址）。
-用git命令将主题下载到 myblogsite/themes/hugo-theme-stack/目录下：
-$ git clone https://github.</description>
-    </item>
-    
+    <lastBuildDate>Sun, 11 Oct 2020 15:38:53 +0800</lastBuildDate><atom:link href="https://aboil.github.io/tags/%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>解决VS Code安装Code Runner插件后，输出窗口中文乱码问题（Python）</title>
       <link>https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/</link>

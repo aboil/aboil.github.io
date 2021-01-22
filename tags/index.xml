@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Jianbiao Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Nov 2020 17:09:51 +0800</lastBuildDate><atom:link href="https://aboil.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Nov 2020 22:50:54 +0800</lastBuildDate><atom:link href="https://aboil.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>个人主页</title>
+      <link>https://aboil.github.io/tags/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</link>
+      <pubDate>Mon, 16 Nov 2020 22:50:54 +0800</pubDate>
+      
+      <guid>https://aboil.github.io/tags/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>hugo</title>
       <link>https://aboil.github.io/tags/hugo/</link>
@@ -17,11 +26,20 @@
     </item>
     
     <item>
-      <title>个人主页</title>
-      <link>https://aboil.github.io/tags/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</link>
-      <pubDate>Mon, 16 Nov 2020 17:09:51 +0800</pubDate>
+      <title>VS Code</title>
+      <link>https://aboil.github.io/tags/vs-code/</link>
+      <pubDate>Sun, 11 Oct 2020 15:38:53 +0800</pubDate>
       
-      <guid>https://aboil.github.io/tags/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</guid>
+      <guid>https://aboil.github.io/tags/vs-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>中文乱码</title>
+      <link>https://aboil.github.io/tags/%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81/</link>
+      <pubDate>Sun, 11 Oct 2020 15:38:53 +0800</pubDate>
+      
+      <guid>https://aboil.github.io/tags/%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81/</guid>
       <description></description>
     </item>
     

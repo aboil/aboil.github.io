@@ -36,6 +36,19 @@ $ git clone https://github.</description>
     </item>
     
     <item>
+      <title>解决VS Code安装Code Runner插件后，输出窗口中文乱码问题（Python）</title>
+      <link>https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/</link>
+      <pubDate>Sun, 11 Oct 2020 15:38:53 +0800</pubDate>
+      
+      <guid>https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/</guid>
+      <description>问题描述 在没有安装Code Runner插件时，运行的代码是在 终端窗口 执行的，执行结果没有出现中文乱码。 安装完Code Runner插件后，运行结果会切换到在 输出窗口 显示执行结果，同时会出现中文乱码问题，如下： 下面有三种解决方法都能解决，推荐最后一种方法。
+解决方法1 简言之，把执行结果再切换回终端窗口执行， 设置方法是在 设置 中勾选Run Terminal即可。再次运行时，执行结果会在 终端窗口 显示。 个人不太喜欢这种方法，还是喜欢想PyCharm那样在输出窗口显示执行结果，下面两种方法亲测可用，个人最喜欢最后一种解决方法。
+解决方法2 简言之是在 python 代码的开头加上以下代码：
+# -*-coding:utf-8 -*- import io import sys sys.stdout=io.TextIOWrapper(sys.stdout.buffer,encoding=&amp;#39;utf8&amp;#39;) 解决方法3 简言之在setting.json中修改配置信息。 找到 python 并设置 set PYTHONIOENCODING=utf8 &amp;amp;&amp;amp; python，过程如下：
+ 首先打开setting.json文件。  然后修改python的编码格式：set PYTHONIOENCODING=utf8 &amp;amp;&amp;amp; python  再来看运行结果   </description>
+    </item>
+    
+    <item>
       <title>Chinese Test</title>
       <link>https://aboil.github.io/p/test-chinese/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>

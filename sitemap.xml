@@ -13,6 +13,16 @@
   </url>
   
   <url>
+    <loc>https://aboil.github.io/tags/</loc>
+    <lastmod>2020-11-16T22:50:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aboil.github.io/tags/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</loc>
+    <lastmod>2020-11-16T22:50:54+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://aboil.github.io/p/%E7%9F%A5%E4%BD%A0%E6%89%80%E6%83%B3/</loc>
     <lastmod>2020-11-16T22:50:54+08:00</lastmod>
   </url>
@@ -28,16 +38,6 @@
   </url>
   
   <url>
-    <loc>https://aboil.github.io/tags/</loc>
-    <lastmod>2020-11-16T17:09:51+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://aboil.github.io/tags/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</loc>
-    <lastmod>2020-11-16T17:09:51+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://aboil.github.io/p/%E5%9F%BA%E4%BA%8Ehugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</loc>
     <lastmod>2020-11-16T17:09:51+08:00</lastmod>
   </url>
@@ -45,6 +45,21 @@
   <url>
     <loc>https://aboil.github.io/categories/%E6%B8%B8%E6%89%8B%E5%A5%BD%E9%97%B2/</loc>
     <lastmod>2020-11-16T17:09:51+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aboil.github.io/tags/vs-code/</loc>
+    <lastmod>2020-10-11T15:38:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aboil.github.io/tags/%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81/</loc>
+    <lastmod>2020-10-11T15:38:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/</loc>
+    <lastmod>2020-10-11T15:38:53+08:00</lastmod>
   </url>
   
   <url>
