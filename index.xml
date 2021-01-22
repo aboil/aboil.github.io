@@ -157,14 +157,35 @@ $ git push -u origin master
         <guid>https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/</guid>
         <description>&lt;h2 id=&#34;问题描述&#34;&gt;问题描述&lt;/h2&gt;
 &lt;p&gt;在没有安装Code Runner插件时，运行的代码是在 &lt;strong&gt;终端窗口&lt;/strong&gt; 执行的，执行结果没有出现中文乱码。
-&lt;!-- raw HTML omitted --&gt;
+&lt;figure&gt;
+		&lt;a href=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/202101221112288.png&#34; data-size=&#34;1225x431&#34;&gt;
+			&lt;img srcset=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/202101221112288_hu862a822ee98ab3251f16a04ab4d22b13_46942_480x0_resize_box_2.png 480w, https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/202101221112288_hu862a822ee98ab3251f16a04ab4d22b13_46942_1024x0_resize_box_2.png 1024w&#34;
+				src=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/202101221112288.png&#34; width=&#34;1225&#34; height=&#34;431&#34; loading=&#34;lazy&#34;
+				alt=&#34;&amp;nbsp;&#34;&gt;
+		&lt;/a&gt;
+		
+	&lt;/figure&gt;
 安装完Code Runner插件后，运行结果会切换到在 &lt;strong&gt;输出窗口&lt;/strong&gt; 显示执行结果，同时会出现中文乱码问题，如下：
-&lt;!-- raw HTML omitted --&gt;
+&lt;figure&gt;
+		&lt;a href=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122111607927.png&#34; data-size=&#34;937x350&#34;&gt;
+			&lt;img srcset=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122111607927_hu90139132efe95df11a39ef4373e87523_33639_480x0_resize_box_2.png 480w, https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122111607927_hu90139132efe95df11a39ef4373e87523_33639_1024x0_resize_box_2.png 1024w&#34;
+				src=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122111607927.png&#34; width=&#34;937&#34; height=&#34;350&#34; loading=&#34;lazy&#34;
+				alt=&#34;&amp;nbsp;&#34;&gt;
+		&lt;/a&gt;
+		
+	&lt;/figure&gt;
 下面有三种解决方法都能解决，推荐最后一种方法。&lt;/p&gt;
 &lt;h2 id=&#34;解决方法1&#34;&gt;解决方法1&lt;/h2&gt;
 &lt;p&gt;简言之，把执行结果再切换回终端窗口执行，
 设置方法是在 &lt;strong&gt;设置&lt;/strong&gt; 中勾选&lt;code&gt;Run Terminal&lt;/code&gt;即可。再次运行时，执行结果会在 &lt;strong&gt;终端窗口&lt;/strong&gt; 显示。
-&lt;!-- raw HTML omitted --&gt;
+&lt;figure&gt;
+		&lt;a href=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122112112693.png&#34; data-size=&#34;1415x852&#34;&gt;
+			&lt;img srcset=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122112112693_hu84a5dc4337d2b1f57b8b070769b43952_125203_480x0_resize_box_2.png 480w, https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122112112693_hu84a5dc4337d2b1f57b8b070769b43952_125203_1024x0_resize_box_2.png 1024w&#34;
+				src=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122112112693.png&#34; width=&#34;1415&#34; height=&#34;852&#34; loading=&#34;lazy&#34;
+				alt=&#34;&amp;nbsp;&#34;&gt;
+		&lt;/a&gt;
+		
+	&lt;/figure&gt;
 个人不太喜欢这种方法，还是喜欢想PyCharm那样在输出窗口显示执行结果，下面两种方法亲测可用，个人最喜欢最后一种解决方法。&lt;/p&gt;
 &lt;h2 id=&#34;解决方法2&#34;&gt;解决方法2&lt;/h2&gt;
 &lt;p&gt;简言之是在 python 代码的开头加上以下代码：&lt;/p&gt;
@@ -172,18 +193,48 @@ $ git push -u origin master
 &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;io&lt;/span&gt;
 &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;sys&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;sys&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stdout&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;io&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;TextIOWrapper&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sys&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stdout&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;buffer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;encoding&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;utf8&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure&gt;
+		&lt;a href=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122112934978.png&#34; data-size=&#34;969x495&#34;&gt;
+			&lt;img srcset=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122112934978_hu13e0b0a4099b9b540993d5a73893bd74_57499_480x0_resize_box_2.png 480w, https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122112934978_hu13e0b0a4099b9b540993d5a73893bd74_57499_1024x0_resize_box_2.png 1024w&#34;
+				src=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122112934978.png&#34; width=&#34;969&#34; height=&#34;495&#34; loading=&#34;lazy&#34;
+				alt=&#34;&amp;nbsp;&#34;&gt;
+		&lt;/a&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
 &lt;h2 id=&#34;解决方法3&#34;&gt;解决方法3&lt;/h2&gt;
 &lt;p&gt;简言之在&lt;code&gt;setting.json&lt;/code&gt;中修改配置信息。
 找到 python 并设置 &lt;code&gt;set PYTHONIOENCODING=utf8 &amp;amp;&amp;amp; python&lt;/code&gt;，过程如下：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;首先打开&lt;code&gt;setting.json&lt;/code&gt;文件。
-&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;然后修改python的编码格式：&lt;code&gt;set PYTHONIOENCODING=utf8 &amp;amp;&amp;amp; python&lt;/code&gt;
-&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;再来看运行结果
-&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;figure&gt;
+		&lt;a href=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122113612690.png&#34; data-size=&#34;1301x870&#34;&gt;
+			&lt;img srcset=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122113612690_hu5ea62fc0b037aef9dd4bbfe876ad1acd_109621_480x0_resize_box_2.png 480w, https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122113612690_hu5ea62fc0b037aef9dd4bbfe876ad1acd_109621_1024x0_resize_box_2.png 1024w&#34;
+				src=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122113612690.png&#34; width=&#34;1301&#34; height=&#34;870&#34; loading=&#34;lazy&#34;
+				alt=&#34;&amp;nbsp;&#34;&gt;
+		&lt;/a&gt;
+		
+	&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;然后修改python的编码格式：&lt;code&gt;set PYTHONIOENCODING=utf8 &amp;amp;&amp;amp; python&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;figure&gt;
+		&lt;a href=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122114000447.png&#34; data-size=&#34;943x517&#34;&gt;
+			&lt;img srcset=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122114000447_hu441b98a4467aa323bb0b6a82dc41f316_106806_480x0_resize_box_2.png 480w, https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122114000447_hu441b98a4467aa323bb0b6a82dc41f316_106806_1024x0_resize_box_2.png 1024w&#34;
+				src=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122114000447.png&#34; width=&#34;943&#34; height=&#34;517&#34; loading=&#34;lazy&#34;
+				alt=&#34;&amp;nbsp;&#34;&gt;
+		&lt;/a&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;再来看运行结果&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;figure&gt;
+		&lt;a href=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122114143837.png&#34; data-size=&#34;597x308&#34;&gt;
+			&lt;img srcset=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122114143837_hu0267c0f9d6455926cae7bc32abda3ab3_29207_480x0_resize_box_2.png 480w, https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122114143837_hu0267c0f9d6455926cae7bc32abda3ab3_29207_1024x0_resize_box_2.png 1024w&#34;
+				src=&#34;https://aboil.github.io/p/%E8%A7%A3%E5%86%B3vs-code%E5%AE%89%E8%A3%85code-runner%E6%8F%92%E4%BB%B6%E5%90%8E%E8%BE%93%E5%87%BA%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98python/index.assets/20210122114143837.png&#34; width=&#34;597&#34; height=&#34;308&#34; loading=&#34;lazy&#34;
+				alt=&#34;&amp;nbsp;&#34;&gt;
+		&lt;/a&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
